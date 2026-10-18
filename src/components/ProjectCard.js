@@ -6,8 +6,8 @@ export function ProjectCard(project, index) {
     <article class="project-card">
       ${Cover(project, index)}
       <div class="card-body">
-        <span class="label" style="font-size:8px;letter-spacing:.6px">${escapeHTML(project.category)}</span>
-        <h3 style="margin-top:4px">${escapeHTML(project.title)}</h3>
+        <span class="label" style="font-size:8px;letter-spacing:.8px">${escapeHTML(project.category)}</span>
+        <h3 style="margin-top:8px">${escapeHTML(project.title)}</h3>
         <p>${escapeHTML(project.desc)}</p>
         <div class="tech">${escapeHTML(project.tech)}</div>
         <button class="action press full" data-project="${index}">

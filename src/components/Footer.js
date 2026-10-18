@@ -2,7 +2,6 @@
 export function Footer() {
   return `
 <footer class="footer">
-<div class="wordmark">gx<span>codev</span>_</div>
 <p>CNPJ 67.069.614/0001-09<br>R. Álvares Cabral, 71 · Prado<br>Maceió – AL · 57010-040</p>
 <button id="share" class="action share press">
 <i class="fa-solid fa-arrow-up-from-bracket" aria-hidden="true">

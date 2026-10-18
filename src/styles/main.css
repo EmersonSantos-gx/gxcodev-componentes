@@ -1,12 +1,12 @@
 /* 01. Tokens, base e acessibilidade. CSS próprio mantém o layout se o CDN falhar. */
 :root {
   color-scheme:dark;
-  --bg:#0d211a;
+  --bg:#0f0d21;
   --panel:#153126;
   --mint:#a7f3d0;
-  --text:#effbf5;
-  --muted:#a1b6aa;
-  --line:#ffffff18;
+  --text:#ffffff;
+  --muted:#b6a1b3;
+  --line:#ffffffff;
   --shadow:#020b07;
   --blue:#3b82f6
 }
@@ -19,7 +19,7 @@ html {
 }
 body {
   margin:0;
-  background:#091610;
+  background:#0f0d21;
   color:var(--text);
   font:14px/1.6 'Space Grotesk',sans-serif
 }
@@ -28,7 +28,7 @@ body:before {
   position:fixed;
   inset:0;
   pointer-events:none;
-  background:radial-gradient(ellipse at 20% 15%,#326e4d33,transparent 50%),radial-gradient(ellipse at 90% 80%,#7058c318,transparent 45%),linear-gradient(#a7f3d008 1px,transparent 1px),linear-gradient(90deg,#a7f3d008 1px,transparent 1px);
+  background:radial-gradient(ellipse at 20% 15%,#ffffff33,transparent 50%),radial-gradient(ellipse at 90% 80%,#7058c318,transparent 45%),linear-gradient(#a7f3d008 1px,transparent 1px),linear-gradient(90deg,#a7f3d008 1px,transparent 1px);
   background-size:auto,auto,48px 48px,48px 48px
 }
 h1,h2,h3,p {
@@ -82,7 +82,7 @@ i {
   padding:0 22px
 }
 .glass {
-  background:#ffffff05;
+  background:#ffffff0d;
   border:1px solid var(--line);
   backdrop-filter:blur(14px);
   -webkit-backdrop-filter:blur(14px)
@@ -93,38 +93,38 @@ i {
 }
 .press:hover {
   transform:translateY(-2px);
-  border-color:#a7f3d077
+  border-color:#ffffffff
 }
 .press:active {
   transform:translate(4px,4px);
   box-shadow:0 0 0 var(--shadow)
 }
 .label {
-  font:9px 'Space Mono',monospace;
-  letter-spacing:1.7px;
+  font:10px 'Space Mono',monospace;
+  letter-spacing:2px;
   text-transform:uppercase;
-  color:#9ab2a4
+  color:#ffffffff
 }
 .badge {
-  font:8px 'Space Mono',monospace;
+  font:10px 'Space Mono',monospace;
   display:inline-block;
   padding:4px 7px;
   border:1px solid #a7f3d035;
-  color:#b9efcf;
-  background:#123427;
+  color:#ffffffff;
+  background:#12342775;
   border-radius:4px
 }
 .section {
   margin-top:30px
 }
 .section-title {
-  font-size:23px;
+  font-size:25px;
   line-height:1.25;
   letter-spacing:-.8px;
   margin:8px 0 9px
 }
 .section-description {
-  font-size:12px;
+  font-size:13px;
   color:var(--muted);
   margin-bottom:17px
 }
@@ -160,7 +160,7 @@ i {
   position:absolute;
   width:100px;
   height:70px;
-  border:1px solid #a7f3d020;
+  border:1px solid #f3cca7ee;
   top:77px
 }
 .circuit:before {
@@ -186,7 +186,7 @@ i {
   color:var(--mint)
 }
 .topnote {
-  font:8px 'Space Mono',monospace;
+  font:18px 'Space Mono',monospace;
   letter-spacing:1px;
   color:#a4c3b1
 }
@@ -211,7 +211,7 @@ i {
   content:'';
   position:absolute;
   inset:0;
-  border-radius:50%;
+  border-radius:100%;
   background:conic-gradient(#a855f7,#5b21b6,#d6afff,#6d28d9,#a855f7);
   animation:spin 10s linear infinite;
   z-index:-1;
@@ -249,23 +249,23 @@ i {
   color:var(--mint)
 }
 .signature {
-  font:8px/1.9 'Space Mono',monospace;
+  font:10px/1.9 'Space Mono',monospace;
   color:#a9c3b4;
   margin:10px auto 12px
 }
 .signature b {
   color:#e5fff0
 }
-.bio {
+.bio {   
   max-width:330px;
   margin:auto;
-  font-size:13px;
+  font-size:15px;
   line-height:1.65;
-  color:#c2d7ca
+  color:#ffffff
 }
 .place {
-  font:9px 'Space Mono',monospace;
-  color:#95b2a2;
+  font:15px 'Space Mono',monospace;
+  color:#ffffff;
   margin-top:11px
 }
 .pills {
@@ -275,7 +275,7 @@ i {
   margin-top:20px
 }
 .pill {
-  font-size:10px;
+  font-size:12px;
   padding:6px 9px;
   border:1px solid #a7f3d022;
   background:#a7f3d008;
@@ -305,7 +305,7 @@ i {
   justify-content:center;
   gap:8px;
   color:#a3c2b0;
-  font:8px 'Space Mono',monospace;
+  font:12px 'Space Mono',monospace;
   letter-spacing:2px
 }
 .hero-kicker:before,.hero-kicker:after {
@@ -334,13 +334,13 @@ i {
 }
 .primary strong {
   display:block;
-  font-size:16px;
+  font-size:20px;
   line-height:1.35;
   letter-spacing:-.4px
 }
 .primary small {
   display:block;
-  font-size:10px;
+  font-size:12px;
   line-height:1.6;
   margin-top:7px;
   color:#335b43
@@ -348,13 +348,13 @@ i {
 .arrow {
   margin-left:auto;
   flex-shrink:0;
-  font-size:12px
+  font-size:25px
 }
 .micro {
   text-align:center;
-  font:8px/1.7 'Space Mono',monospace;
+  font:13px/1.7 'Space Mono',monospace;
   color:#8ea99a;
-  margin-top:11px
+  margin-top:10px
 }
 .plan-trigger {
   display:flex;
@@ -372,11 +372,11 @@ i {
 }
 .plan-trigger strong {
   display:block;
-  font-size:12px
+  font-size:20px
 }
 .plan-trigger small {
   display:block;
-  font-size:10px;
+  font-size:13px;
   color:var(--muted);
   margin-top:3px
 }
@@ -401,7 +401,7 @@ input,select,textarea {
   color:#edfff5;
   border-radius:8px;
   padding:11px;
-  font-size:13px
+  font-size:12px
 }
 textarea {
   resize:vertical;
@@ -722,7 +722,7 @@ input::placeholder,textarea::placeholder {
   text-align:center
 }
 .footer p {
-  font:8px/1.9 'Space Mono',monospace;
+  font:10px/1.9 'Space Mono',monospace;
   color:#8da99a
 }
 .footer .wordmark {
@@ -851,12 +851,12 @@ input::placeholder,textarea::placeholder {
   border-radius:7px;
   padding:13px 5px;
   text-align:center;
-  font-size:9px;
+  font-size:10px;
   color:#b8d3c3
 }
 .demo-tile strong {
   display:block;
-  font-size:19px;
+  font-size:15px;
   color:var(--mint)
 }
 .toast {
@@ -937,7 +937,7 @@ to {
 }
 @media(max-width:350px) {
   .pill {
-  font-size:9px;
+  font-size:10px;
   padding:6px
 }
 .card-actions {

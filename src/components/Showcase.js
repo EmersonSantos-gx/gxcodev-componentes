@@ -19,7 +19,7 @@ export function Showcase() {
 <button class="filter press" data-filter="Todos" aria-pressed="true">Todos</button>
 <button class="filter press" data-filter="Landing Pages" aria-pressed="false">Landing Pages</button>
 <button class="filter press" data-filter="Mini Sites" aria-pressed="false">Mini Sites</button>
-<button class="filter press" data-filter="Dashboards/Sistemas" aria-pressed="false">Dashboards/Sistemas</button>
+<button class="filter press" data-filter="Dashboards/Sistemas" aria-pressed="false">Dashboards</button>
 </div>
 <div id="model-count" class="label" role="status" style="margin-bottom:11px;letter-spacing:.5px">4 modelos demonstrativos</div>
 <div id="models" class="gallery">

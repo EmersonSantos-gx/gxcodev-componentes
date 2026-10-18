@@ -8,13 +8,10 @@ export function Hero() {
 <img id="profile" class="avatar" alt="Avatar circular da Gxcodev" width="120" height="120" fetchpriority="high">
 </div>
 <div class="hero-kicker">Estúdio digital independente</div>
-<h1 style="margin-top:10px">Gx<span>codev</span>
-<span class="mono" style="font-size:26px">.</span>
+<h1 style="margin-top:20px">Gx<span>codev</span>
 </h1>
 <p class="signature">
-<b>G</b> Garotinho · <b>X</b> Inovação<br>
-<b>Code</b> Códigos · <b>Dev</b> Desenvolvedor</p>
-<p class="bio">Gxcodev | Transformando ideias em códigos, UI/UX Designer e Edições.</p>
+<p class="bio">Transformando ideias em Códigos, UI/UX Designer e Edições.</p>
 <p class="place">
 <i class="fa-solid fa-location-dot" aria-hidden="true">
 </i> Maceió, AL ↗ Todo o Brasil</p>
