@@ -1,0 +1,1 @@
+Coloque aqui Comuna-Medium.woff2 e Comuna-Bold.woff2, com licença de uso web. Os arquivos da fonte não foram fornecidos. Até lá, a página usa Comuna instalada localmente, Space Grotesk ou sans-serif.

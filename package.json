@@ -1,0 +1,15 @@
+{
+  "name": "gxcodev-cartao-digital",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cart\u00e3o Gxcodev em componentes JavaScript nativos, sem build",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "dev": "node scripts/serve.js",
+    "check": "node scripts/check.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
